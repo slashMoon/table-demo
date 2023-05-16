@@ -20,10 +20,7 @@ for (let i = 0; i < 100; i++) {
 const columns: TableColumn<TableData>[] = [
   { key: 'id', title: 'ID', fixed: 'left', width: 100 },
   { key: 'name', title: 'Name', fixed: 'left', width: 100 },
-  { key: 'age', title: 'Age', sortable: true,  },
-  { title: 'Column1', key: 'name'},
-  { title: 'Column 2', key: 'name' },
-  { title: 'Column 3', key: 'name' },
+  { key: 'age', title: 'Age', sortable: true,  },{ title: 'Column1', key: 'name'}, { title: 'Column 2', key: 'name' },{ title: 'Column 3', key: 'name' },
   { title: 'Column 4', key: 'name' },
   { title: 'Column 5', key: 'name' },
   { title: 'Column 6', key: 'name' },
