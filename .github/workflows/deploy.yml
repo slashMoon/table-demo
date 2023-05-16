@@ -34,7 +34,4 @@ jobs:
         run: |
           npm run lint
           npm run build
-          
-      - name: upload production artifacts
-        with:
-          file: build
+      - name: Deploy to GitHub
