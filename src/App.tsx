@@ -12,7 +12,6 @@ for (let i = 0; i < 100; i++) {
   data.push({
     id: i,
     name: `Edward ${i}`,
-    
     age: i + 1,
     gender: `male. ${i}`,
   });
