@@ -1,5 +1,0 @@
-# *.html
-vendor
-build
-.vscode
-package-lock.json
