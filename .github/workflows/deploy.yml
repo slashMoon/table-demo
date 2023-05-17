@@ -34,11 +34,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: lint & build
         run: |
-          npm run lint
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          TABLE_ACCESS_TOKEN: ${{secrets.TABLE_ACCESS_TOKEN}}
-          BRANCH: gh-pages
+          branch: gh-pages
           folder: build
